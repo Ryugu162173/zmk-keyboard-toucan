@@ -49,9 +49,14 @@
             key-positions = <33 34>;
         };
 
-        bootloader {
+        bootloaderL {
             bindings = <&bootloader>;
             key-positions = <37 36 38>;
+        };
+
+        bootloaderR {
+            bindings = <&bootloader>;
+            key-positions = <39 41 40>;
         };
     };
 

@@ -54,7 +54,7 @@
 
         unlock {
             bindings = <&studio_unlock>;
-            key-positions = <39 38 40 37>;
+            key-positions = <37 5>;
         };
     };
 

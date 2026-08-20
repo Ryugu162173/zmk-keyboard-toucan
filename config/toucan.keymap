@@ -48,6 +48,11 @@
             bindings = <&kp LANGUAGE_1>;
             key-positions = <33 34>;
         };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <37 36 38>;
+        };
     };
 
     keymap {

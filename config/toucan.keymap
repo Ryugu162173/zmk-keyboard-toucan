@@ -29,8 +29,8 @@
             key-positions = <13 14>;
         };
 
-        myLan1 {
-            bindings = <&kp LANGUAGE_1>;
+        myLan2 {
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <25 26>;
         };
 
@@ -44,8 +44,8 @@
             key-positions = <21 22>;
         };
 
-        myLan2 {
-            bindings = <&kp LANGUAGE_2>;
+        myLan1 {
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <33 34>;
         };
     };
@@ -60,24 +60,24 @@
             >;
         };
 
-        nav {
-            display-name = "NAV";
-            bindings = <
-&none  &kp AT_SIGN  &kp EXCLAMATION  &kp QUESTION  &kp LESS_THAN  &kp GREATER_THAN  &kp GRAVE  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp HASH  &kp DOLLAR  &none  &none  &kp SLASH  &kp ASTERISK  &kp MINUS  &kp PLUS  &kp EQUAL  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COLON  &none  &none  &kp CARET  &kp TILDE  &kp PIPE  &kp AMPERSAND  &kp PERCENT  &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH  &kp BACKSLASH  &none  &trans  &trans  &trans  &trans  &trans  &studio_unlock
-            >;
-        };
-
         sym {
             display-name = "SYM";
             bindings = <
-&none  &none  &none  &kp UP_ARROW  &none  &none  &none  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LEFT_ALT  &none  &none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &kp PERIOD  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LEFT_SHIFT  &none  &none  &none  &none  &none  &none  &none  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LEFT_CONTROL  &none  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &kp AT_SIGN  &kp EXCLAMATION  &kp QUESTION  &kp LESS_THAN  &kp GREATER_THAN  &kp GRAVE  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp HASH  &kp DOLLAR  &none  &none  &kp SLASH  &kp ASTERISK  &kp MINUS  &kp PLUS  &kp EQUAL  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COLON  &none  &none  &kp CARET  &kp TILDE  &kp PIPE  &kp AMPERSAND  &kp PERCENT  &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH  &kp BACKSLASH  &none  &trans  &mo 2  &trans  &trans  &mo 1  &trans
+            >;
+        };
+
+        nav {
+            display-name = "NAV";
+            bindings = <
+&none  &none  &none  &kp UP_ARROW  &none  &none  &none  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LEFT_ALT  &none  &none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &kp PERIOD  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LEFT_SHIFT  &none  &none  &none  &none  &none  &none  &none  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LEFT_CONTROL  &none  &trans  &mo 2  &trans  &trans  &mo 1  &trans
             >;
         };
 
         adj {
             display-name = "ADJ";
             bindings = <
-&none  &kp C_VOLUME_UP  &none  &none  &none  &none  &none  &kp F7  &kp F8  &kp F9  &kp F12  &none  &none  &kp C_VOLUME_DOWN  &none  &none  &none  &none  &none  &kp F4  &kp F5  &kp F6  &kp F11  &none  &none  &kp K_MUTE  &none  &none  &none  &none  &none  &kp F1  &kp F2  &kp F3  &kp F10  &none  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &kp C_VOLUME_UP  &none  &none  &none  &none  &none  &kp F7  &kp F8  &kp F9  &kp F12  &none  &none  &kp C_VOLUME_DOWN  &none  &none  &none  &none  &none  &kp F4  &kp F5  &kp F6  &kp F11  &none  &none  &kp K_MUTE  &none  &none  &none  &bootloader  &none  &kp F1  &kp F2  &kp F3  &kp F10  &none  &mo 3  &trans  &trans  &trans  &trans  &mo 3
             >;
         };
 

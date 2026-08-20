@@ -16,6 +16,40 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        myEsc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+        };
+
+        myTab {
+            bindings = <&kp TAB>;
+            key-positions = <13 14>;
+        };
+
+        myLan1 {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <25 26>;
+        };
+
+        myAlt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <9 10>;
+        };
+
+        myGui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <21 22>;
+        };
+
+        myLan2 {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <33 34>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
